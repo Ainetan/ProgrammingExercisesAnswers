@@ -13,8 +13,8 @@ public class Palindrome {
         String word = input.nextLine();
 
         boolean result = isPalindrome(word);
-        System.out.printf("The input '%s' is %s.%n", word,
-                result ? "a palindrome" : "not a palindrome");
+        System.out.printf("'%s' - it is%sa palindrome%n", word,
+                result ? " " : " not ");
     }
 
     // an algorithm for identifying whether a word is a palindrome or not.
